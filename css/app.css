@@ -35,7 +35,7 @@ body {
 /*Playing with CSS ANIMATIONS*/
 
 /*How can I make the psuedoe .item before element disappear on a hover?*/
-.ui.purple.button:hover, a:hover, .item:before {
+.ui.purple.button:hover, a:hover, a:hover::before {
   /*background-color: #cce2ff;
   transition: all 2s ease 0;
   transform:rotate(1deg);*/
