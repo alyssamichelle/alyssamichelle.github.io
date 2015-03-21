@@ -1,7 +1,7 @@
 angular.module('answersToLife')
-.controller('UnansweredController',function(Questions, $scope){
+.controller('UnansweredController',function(Unanswered, $scope){
 
-  Questions.success(function(data){
+  Unanswered.success(function(data){
     $scope.unansweredQuestions = data;
     console.log(data);
   });

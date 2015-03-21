@@ -12,7 +12,7 @@ angular.module('answersToLife', ['ngResource', 'yaru22.directives.md', 'ngRoute'
   .when('/alt-content',{
     templateUrl: '/answer/alt-content.html'
   })
-  .when('/questions',{
+  .when('/unanswered',{
     templateUrl: '/unanswered/template.html',
     controller: 'UnansweredController'
   })
