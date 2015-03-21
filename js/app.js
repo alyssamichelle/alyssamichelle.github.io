@@ -17,7 +17,6 @@ angular.module('answersToLife', ['ngResource', 'yaru22.directives.md', 'ngRoute'
     controller: 'UnansweredController'
   })
   .when('/about',{
-    templateUrl: '/about/template.html',
-    controller: 'AboutController'
+    templateUrl: '/about/template.html'
   });
 });
